@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+:root{
+--black: #202124;
+--white: #FEFEFF;
+--button-black: #303035;
+--button-word: #E7EBEC;
+--hover-outline: #5E6366;
+--footer-black: #171616;
+--footer-word:#989CA1;
+--blue-button: #8BB5F7;
+}
+
+/* header */
+#header
+{
+    display:flex;
+    justify-content: end;
+    padding-top: 1%;
+}
+
+#header a
+{
+    font-family: 'Noto Sans', sans-serif;
+    color:var(--white);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#image-link{
+    padding-top: 5px;
+    display: block;
+}
+
+#image-link:hover,
+#sign-in:hover{
+    text-decoration: underline;
+}
+
+#sign-in{
+    background-color: var(--blue-button);
+    padding: 7px 18px;
+    border-radius: 3px;
+    margin-left: 15px;
+    border-style: none;
+
+}
+
+#sign-in a{
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+}
+
+#main-text{
+    font-size: 80px;
+    color: var(--white);
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+#search-box{
+    height: 46px;
+    width: 426px;
+    border-radius: 40px;
+    border-color: var(--button-word);
+    background-color: var(--black);
+    border-style: solid;
+    color:white;
+}
+
+.main{
+    margin-top: 200px;
+    text-align: center;
+}
+
+body{
+    background-color: var(--black);
+}
+
+.button {
+    margin-top: 30px;
+    background-color: var(--button-black);
+    border-radius: 15px;
+    color: var(--button-word);
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    padding: 8px;
+    border-color: none;
+    
+}
+
+.button:hover{
+    border: 1px var(--hover-outline) solid;
+}
+
+/* footer */
+
+#footer{
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: 0; 
+    background-color: var(--footer-black);
+}
+
+#footer-box {
+    height: 35px;
+    width: 97%;
+    padding-top: 10px;
+} 
+
+#footer a {
+    text-decoration: none;
+    color: var(--footer-word);
+    bottom: 0;
+
+} 

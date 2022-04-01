@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="advancesearch.css">
+
+    <title>Advanced Search</title>
+</head>
+
+
+<body>
+    <a id="google" href="index.html" >Google</a>
+    <div class="overall">
+        <span id="title">Advanced search</span>
+        <label id="find-page">Find pages with...</label>
+        <input disabled id="invis" class="advance-textbox" type="text">
+        <span id="to-do" class="after-textbox"> To do this in the search box</span><br>
+    </div>
+
+    
+    <form id="form" class="overall" action="https://www.google.com/search" method="get">
+        <label for="all">all these words:</label>
+        <input class="advance-textbox" name="q" type="text" id="all">
+        <span class="after-textbox"> 
+            Type the important words: <span class="sub-after"> tricolor rat terrier</span>
+        </span><br>
+
+        <label class="advance-label">this exact word or phrase:</label>
+        <input class="advance-textbox" type="text" id="">
+        <span class="after-textbox">
+            Put exact words in quotes: <span class="sub-after"> "rat terrier"</span> 
+        </span><br>
+
+        <label class="advance-label">any of these words:</label>
+        <input class="advance-textbox" type="text" id="">
+        <span class="after-textbox">
+            Type OR between all the words you want: <span class="sub-after"> miniature OR standard</span>  
+        </span><br>
+
+        <label class="advance-label">none of these words:</label>
+        <input class="advance-textbox" type="text" id="">
+        <span class="after-textbox">
+            Put a minus sign just before words you don't want: <span class="sub-after">  -rodent, -"Jack Russell"</span>
+        </span><br>
+
+        <!-- <input id="advance-search" name="q" type="submit" value="Advanced Search"> -->
+        <input id="advance-search" type="submit" value="Advanced Search">
+    </form>
+</body>
+
+</html>

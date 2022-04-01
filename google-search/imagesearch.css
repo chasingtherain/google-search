@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+:root{
+--black: #202124;
+--white: #FEFEFF;
+--button-black: #303035;
+--button-word: #E7EBEC;
+--hover-outline: #5E6366;
+--footer-black: #171616;
+--footer-word:#989CA1;
+}
+
+.top{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+    
+}
+
+body{
+    background-color: var(--black);
+}
+
+
+#google{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--white);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    margin-bottom: 30px;
+    
+}
+
+.main{
+    text-align: center;
+}
+
+#img{
+    width: 30%;
+    height: auto;
+    margin-top: 125px;
+    margin-bottom:30px;
+}
+
+#search-box{
+    height: 46px;
+    width: 426px;
+    border-radius: 25px;
+    border-color: var(--button-word);
+    border-style: solid;
+    background-color: var(--black);
+    color: var(--white)
+
+}
+
+.button {
+    margin-top: 30px;
+    background-color: var(--button-black);
+    border-radius: 15px;
+    color: var(--button-word);
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    padding: 8px;
+    border-color: none;
+    
+}

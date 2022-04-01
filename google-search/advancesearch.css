@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+:root{
+    --black: #202124;
+    --white: #FEFEFF;
+    --button-black: #303035;
+    --button-word: #E7EBEC;
+    --grey: #BCC1C4;
+    --search-red: #F38A82;
+    --blue-button: #8BB5F7;
+    }
+
+.overall{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    /* padding-top: 5%; */
+}
+
+body{
+    background-color: var(--black);
+}
+
+#google{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--white);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    margin-bottom: 30px;
+    
+}
+
+#title{
+    color: var(--search-red);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-bottom: 1px solid;
+    width: 100%;
+    padding-bottom: 15px;
+    display: block;
+}
+
+/* form header */
+
+
+#find-page{
+    font-size: 15px;
+    color: var(--white);
+}
+
+.form-header{
+    color: var(--button-word);
+    display: inline;
+}
+
+#to-do{
+    color:var(--white);
+}
+
+
+/* form */
+label{
+    color: var(--grey);
+    width:150px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.advance-textbox{
+    height:25px;
+    margin: 5px;
+    width: 45%;
+    background-color:var(--black);
+    border-style: solid #BCC1C4;
+    border-color: var(--grey);
+    border-radius: 2px;
+    border-width: thin;
+    color:white;
+}
+
+#advance-search{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: var(--blue-button);
+    display: block;
+    margin-left: auto;
+    margin-right: 20em;
+    position:absolute;
+}
+
+#invis{
+    border-style: none;
+    background-color: var(--black);
+
+}
+
+/* content after textbox */
+.after-textbox{
+    color:aqua;
+    font-size: 12px;
+}
+
+.sub-after{
+    color: var(--hover-outline);
+    font-family: 'Space Mono', monospace;
+
+}
+
+@media (min-width:600px) and (max-width: 1000px) {
+    .after-textbox{
+        display:block;
+    }
+}
+
+@media (max-width:599px) {
+    .sub-after, .after-textbox{
+        display:none;
+    }
+}
